@@ -4,6 +4,7 @@ import { ItemListWrapper } from "./style";
 const ItemList = memo((props) => {
   const { topList, topTitle, color } = props;
   console.log(111, topList);
+
   return (
     <ItemListWrapper color={color}>
       <div className="top-title">

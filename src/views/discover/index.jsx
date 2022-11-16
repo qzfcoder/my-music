@@ -22,7 +22,6 @@ const Discover = memo((props) => {
     <DiscoverWrapper>
       {homeBanner.banners && <TopBanner homeBanner={homeBanner}></TopBanner>}
       <ContentItem></ContentItem>
-      
     </DiscoverWrapper>
   );
 });
