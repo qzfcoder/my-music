@@ -2,6 +2,7 @@ import React from "react";
 import { Navigate } from "react-router-dom";
 const Discover = React.lazy(() => import("@/views/discover"));
 const Playlist = React.lazy(() => import("@/views/playlist"));
+const Leaderboard = React.lazy(() => import("@/views/leaderboard"));
 
 const routes = [
   {
@@ -15,6 +16,10 @@ const routes = [
   {
     path: "/playlist",
     element: <Playlist></Playlist>,
+  },
+  {
+    path: "/leaderboard",
+    element: <Leaderboard></Leaderboard>,
   },
 ];
 export default routes;

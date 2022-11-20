@@ -9,4 +9,7 @@ export const MusicPlayWrapper = styled.div`
   background-color: #2c2b2b;
   z-index: 999;
   box-shadow: 0px -5px 10px 0px #ff0000;
+  audio {
+    width: 100% !important;
+  }
 `;

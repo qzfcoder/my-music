@@ -14,7 +14,10 @@ const MusicPlay = memo((props) => {
   console.log("musicUrl", musicUrl);
   return (
     <MusicPlayWrapper>
-      <audio src={musicUrl?.data?.[0]?.url || ""} controls="controls">
+      <audio
+        src={musicUrl?.data?.[0]?.url || ""}
+        controls="controls"
+      >
         Your browser does not support the audio element.
       </audio>
     </MusicPlayWrapper>

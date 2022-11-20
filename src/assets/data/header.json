@@ -1,13 +1,25 @@
-[
-  {
+[{
     "name": "发现音乐",
-    "list": [
-      { "name": "推荐", "href": "discover" },
-      { "name": "排行榜" },
-      { "name": "歌单" },
-      { "name": "主播电台" },
-      { "name": "歌手" },
-      { "name": "新碟上架" }
+    "list": [{
+        "name": "推荐",
+        "href": "discover"
+      },
+      {
+        "name": "排行榜",
+        "href": "leaderboard"
+      },
+      {
+        "name": "歌单"
+      },
+      {
+        "name": "主播电台"
+      },
+      {
+        "name": "歌手"
+      },
+      {
+        "name": "新碟上架"
+      }
     ]
   },
   {
