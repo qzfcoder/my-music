@@ -9,7 +9,8 @@
         "href": "leaderboard"
       },
       {
-        "name": "歌单"
+        "name": "歌单",
+        "href": "songList"
       },
       {
         "name": "主播电台"

@@ -5,3 +5,4 @@ export * from "./modules/home";
 export * from "./modules/music";
 export * from "./modules/playList";
 export * from "./modules/rank";
+export * from "./modules/songList";

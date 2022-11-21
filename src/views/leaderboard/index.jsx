@@ -112,7 +112,7 @@ const Leaderboard = memo((props) => {
                 <div className="five-clomn">专辑</div>
               </div>
               <div>
-                {topList.playlist.tracks &&
+                {topList?.playlist?.tracks &&
                   topList?.playlist?.tracks.map((song, index) => {
                     return (
                       <div
