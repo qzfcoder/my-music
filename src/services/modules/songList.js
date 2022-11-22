@@ -6,3 +6,9 @@ export function getCatlistData(params) {
     params: params,
   });
 }
+export function getCatPlaylistData(params) {
+  return TtRequest.get({
+    url: "/top/playlist",
+    params: params,
+  });
+}

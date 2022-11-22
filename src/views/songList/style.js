@@ -34,4 +34,10 @@ export const SongListWrapper = styled.div`
       cursor: pointer;
     }
   }
+  .song-list-content {
+    padding: 50px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 `;

@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const ItemCardWrapper = styled.div`
+  width: 140px;
+  box-sizing: content-box;
+  padding: 5px;
   .img-card {
     position: relative;
     width: 140px;
@@ -38,5 +41,7 @@ export const ItemCardWrapper = styled.div`
     margin-top: 5px;
     font-size: 14px;
     color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 `;
