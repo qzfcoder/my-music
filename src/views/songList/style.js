@@ -40,4 +40,8 @@ export const SongListWrapper = styled.div`
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  .song-list-pagination {
+    text-align: center;
+    padding-bottom: 20px;
+  }
 `;

@@ -44,4 +44,11 @@ export const ItemCardWrapper = styled.div`
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .song-list-pagination {
+    margin: 0 auto;
+    text-align: center;
+    Pagination {
+      margin: 0 auto;
+    }
+  }
 `;
